@@ -155,9 +155,9 @@ right: 20px;
         <!-- <button style="margin:0px auto; display:block;" type="submit" id="btn">Submit</button> -->
       </div></div>
   </form>
-  <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-app.js"></script>"
-  <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-analytics.js"></script>
-  <link href="https://dc1995wow.github.io/css/style.css" rel="stylesheet">
+  <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-app.js"></script>"
+  <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-database.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
   <script src="main.js"> </script>
 </body>
 
