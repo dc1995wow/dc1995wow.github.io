@@ -111,7 +111,7 @@ function addFoodValue() {
   console.log("thisAmount=" + thisAmount);
   console.log("foodTotal=" + foodTotal);
   //write into database
-  var newMessageRef = firebase.database().ref('clothesMoney/').push();
+  var newMessageRef = firebase.database().ref('foodMoney/').push();
   newMessageRef.set({
     foodTotal: foodTotal
   });
