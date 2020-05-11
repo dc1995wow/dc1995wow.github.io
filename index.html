@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Hello My Piggy Bank 🐷</title>
+</head>
+
+<body>
+
+  <h1>Welcome to my piggy bank 🐷</h1>
+  <p>I can record my spending here!</p>
+  <p>
+    <form id="moneyForm">
+      <label>Money type🌂</label>
+      <select id="moneyType">
+        <option value="clothes">Clothes</option>
+        <option value="makeup">Makeup</option>
+        <option value="foodDrinks">Food & Drinks</option>
+        <option value="transportation">Transportation</option>
+        <option value="entertainment">Entertainment</option>
+        <option value="traveling">Traveling</option>
+      </select>
+  </p>
+  <p>
+    <label>Money amount💰</label>
+    <input type="number" name="amount" step="0.01" placeholder="10.0" id="moneyAmount" required>
+  </p>
+  <button type="submit" id="btn">Submit</button>
+  </form>
+  <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-database.js"></script>
+  <script src="main.js">
+  </script>
+
+</body>
+
+</html>
